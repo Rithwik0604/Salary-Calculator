@@ -1,0 +1,117 @@
+html{
+    background-color: rgba(0, 0, 0, 0.719);
+    overflow: hidden;
+}
+
+
+
+
+
+body{
+    color: rgb(0, 0, 0);
+}
+
+.ask{
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgba(0, 255, 255, 0.541);
+    color: rgb(0, 0, 0);
+    user-select: none;
+    position: relative;
+    border-radius: 10px;
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.qts{
+    padding-left: 10px;
+    margin: 10;
+    padding: 15px;
+}
+
+#inp{
+    background-color: rgb(255, 255, 255);
+    left: 100px;
+    left: 350px;
+    top: 15px;
+    height: fit-content;
+
+}
+
+#inp2{
+    background-color: rgb(255, 255, 255);
+
+    left: 350px;
+    height: fit-content;
+    top: 50px;
+
+}
+
+#inp3{
+    background-color: rgb(255, 255, 255);
+
+    left: 350px;
+    height: fit-content;
+    top: 50px;
+
+}
+
+#butt{
+    background-color: rgb(109, 109, 109);
+    height: 30px;
+    left: 600px;
+
+    color: white;
+    font-size: large;
+    transition: 0.1s ease;
+    border: 5px rgb(255, 255, 255);
+    border-radius: 7px;
+    
+
+}
+
+#butt:hover{
+    scale: 1.1;
+}
+
+#butt:active{
+    scale: 0.8;
+    filter:invert(1);
+}
+
+.notax{
+    float: left;
+    margin: auto;
+    border: 0px solid black;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.541);
+    border-radius: 10px;
+}
+
+.line1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.tax{
+    float: right;
+    margin:auto;
+    border: 0px solid black;
+    margin-top: 70px;
+    margin-right: 100px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.541);
+    border-radius: 10px;;
+}
+

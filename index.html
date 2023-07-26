@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, 
+user-scalable=no">
+
+<head>
+
+    <title>Salary calculator</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+<script src="./sal.js"></script>
+
+
+
+<body>
+    
+    <div class="ask"><p class="qts">Enter the pay/hour</p> <input type="number" name="pay" id="inp">
+        <p class="qts">Enter the amount of hours to work per week</p> <input type="number" name="hours" id="inp2"> 
+        <p class="qts">Enter month expesnses</p> <input type="number" name="expesnses" id="inp3"> 
+        <br><br> <button id="butt" onclick=cal()>Calculate</button>
+    </div>
+
+
+
+    <div class="notax">
+        <p> <b><u>WITHOUT TAXES </u> </b> </p>
+        <p class="line1" >Pay per week = </p> <p  class="line1" id="ntweekpay" >-</p>
+        <br>
+        <p class="line1">Pay per month =</p> <p class="line1" id="ntmonthpay">-</p>
+        <br>
+        <p class="line1">Spending per day in a month = </p> <p class="line1" id="ntspend">-</p>
+        <br>
+        <p> <b> <u> IF YOU PAY YOUR OWN RENT: </b> </u> </p>
+        <p class="line1">Monthly earning = </p> <p class="line1" id="ntrmonth">-</p>
+        <br>
+        <p class="line1">Spending per day in a month = </p> <p class="line1" id="ntrspend">-</p>
+    </div>
+
+
+    <div class="tax">
+        <p> <b> <u>WITH TAXES </b> </u> </p>
+        <p class="line1" >Pay per week = </p> <p  class="line1" id="tweekpay">-</p>
+        <br>
+        <p class="line1">Pay per month =</p> <p class="line1" id="tmonthpay">-</p>
+        <br>
+        <p class="line1">Spending per day in a month = </p> <p class="line1" id="tspend">-</p>
+        <br>
+        <p> <u> <b>IF YOU PAY YOUR OWN RENT:</b>  </u> </p>
+        <p class="line1">Monthly earning = </p> <p class="line1" id="trmonth">-</p>
+        <br>
+        <p class="line1">Spending per day in a month = </p> <p class="line1" id="trspend">-</p>
+    </div>
+
+
+</body>
+</html>
